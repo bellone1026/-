@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #csv 형식의 데이터 불러오기
-A=pd.read_csv("C:/Users/82108/OneDrive/바탕 화면/동해항.csv",encoding='cp949')
+A=pd.read_csv("파일경로.csv",encoding='cp949')
 
 #X축과 Y축 정하기
 X=A[['날짜']]
